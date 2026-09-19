@@ -1,0 +1,16 @@
+# Data notes
+
+## Grid3 Nigeria LGA level data
+-Source:- https://data.grid3.org/datasets/GRID3::grid3-nga-operational-lga-boundaries/about 
+- Downloaded: Sept 16, 2026
+- 797 features, polygon
+- Columns: LGA_name (Egor, Oredor, Ovia North-east, Ikoba-okha, Ohrionmwon), State (Edo State).
+- No nulls in LGA name
+- Covers my study area fully.
+
+## OSM roads extracted via QuickOSM
+- Query: highway= within Benin city.
+- Extracted:  Sept 16, 2026
+- 56,061 features, line
+- Many have no surface tag, so paved and unpaved cannot be separated everywhere
+- Coverage looks good in built-up area, sparse at the edges.

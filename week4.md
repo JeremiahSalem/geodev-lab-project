@@ -28,6 +28,7 @@ settlements minus the buffer vector → Geoprocessing Tools → Difference. Inpu
 ## Step 7
  Calculate the final percentage, handling nulls in the formula on the joined settlement layer, Field Calculator → new field pct_uncovered → Decimal number → expression: CASE WHEN "uncovered_km2" IS NULL THEN 0 ELSE "uncovered_km2" / "total_km2" * 100 END. Click OK. This scores fully-covered settlements (which dropped out of the Difference output) as 0% automatically, instead of leaving a blank.
 
+<img width="3543" height="2362" alt="Benin Buffer" src="https://github.com/user-attachments/assets/e8c6691b-0740-4e2c-911a-bdea549abac7" />
 
 
 

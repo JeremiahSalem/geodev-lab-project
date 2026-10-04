@@ -58,6 +58,6 @@ settlements minus the buffer vector → Geoprocessing Tools → Difference. Inpu
 |15| IQR |	0 |
 |16| Missing (null) values |	0 |
 
-![Map of the area](Benin Buffer-1.png)
+![Map of the area](Benin_Buffer-1.png)
 
 **Status complete**: [Month-1-summary](Month-1.md) 

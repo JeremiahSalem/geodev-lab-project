@@ -1,27 +1,19 @@
 # Data notes
 
-## Grid3 Nigeria LGA level data
--Source:- https://data.grid3.org/datasets/GRID3::grid3-nga-operational-lga-boundaries/about 
-- Downloaded: Sept 16, 2026
-- 797 features, polygon
-- Columns: LGA_name (Egor, Oredor, Ovia North-east, Ikoba-okha, Ohrionmwon), State (Edo State).
-- No nulls in LGA name
-- Covers my study area fully.
-  
-## OSM roads, Benin City.
+**Week2 Deliverables** GeoDev Lab Africa. Cohort one. Author: Jeremiah Salem
 
-- Extracted on:  Sept 16, 2026 via quickOSM, highway=*
-- 30, 239 features
-- Completeness: good in built up area, sparse at the edges.
-- Currency:
-- Positional: Roads aligns with satellite imagery, with slight systematic offset     visible.
-- Attribute: only a smaller percentage carry a surface tag, so paved, unpaved, asphalt etc, cannot be separated reliably.
-- fitness: adequate for access analysis in built up area, not adequate for paved-road question.
+What I downloaded, where it came from, what is in it, and what is wrong with it.
+
+|SN |Dataset |Source |Features |Date |Comment |Size |
+|---|---|---|---|---|---|---|
+|1 |LGA boundary.shp |[GRID3](https://data.grid3.org/datasets/GRID3::grid3-nga-operational-lga-boundaries/about) |(polygon) 774 |Sept |No nulls in LGA ,Covers my study area fully|645KB |
+|2 |OSM Roads.shp |QuickOSM |(line) 56,061 |Sept |Many have no surface tag, so paved and unpaved cannot be separated everywhere,Coverage looks good in built-up area, sparse at the edges.
+|3 |Settlement extent.gpkg |[GRID3](https://data.grid3.org/datasets/GRID3::grid3-nga-settlement-extents-v4-1/about) |(blobs)>20000 |sept |null values present  |2GB |
+|4 |State boundary.shp |[GRID3](https://data.grid3.org/datasets/GRID3::grid3-nga-operational-lga-boundaries/about) |(polygon)36 |Sept |ok |2.6MB |
+|5 |Waste Collection point.kml | [OSM Api](https://overpass-turbo.eu/) |(point)38 |Sept |null values present, incomplete waste collection points since both formal and informal waste points are counted together |12KB | 
+
+**Status** Week2 complete. Reprojection and quality checks in week 3, see [Data-preparation.md](Data.preparation.md)  
 
 
-## CRS and preparation
 
--	All sources’ layers arrived in EPSG: 4326
--	Study area: Benin city, extracted from GRID3 LGA’s
--	 All layers clipped to the study area, then reprojected to EPSG: 32631 (UTM 31N)
--	Working files in data/processed, raw files untouched.
+

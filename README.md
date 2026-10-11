@@ -15,4 +15,8 @@ Built over twelve months with Geodev Lab Africa, cohort one.
 - [x] Week4; Reprojected, clipped and quality checked
 - [x] Week5; First spatial
 
+## Month 2
+
+- [x] Week6; set the project with uv and added pandas. [check.py](geoclean\check.py) prints pandas version.
+
 See [project-brief.md](project-brief.md) for the full brief.

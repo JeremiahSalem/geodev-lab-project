@@ -17,6 +17,7 @@ Built over twelve months with Geodev Lab Africa, cohort one.
 
 ## Month 2
 
-- [x] Week6; set the project with uv and added pandas. [check.py](geoclean\check.py) prints pandas version.
+- [x] Week6; set the project with uv and added pandas. [check.py](geoclean\check.py) prints pandas version
+- [x] Week7; [analyse.py](analyse.py) reads [wards.csv](wards.csv) , converts each area and classifies each ward.
 
 See [project-brief.md](project-brief.md) for the full brief.

@@ -1,38 +1,25 @@
 import csv
 
-# with open("underservedareas.csv", encoding="utf-8-sig") as f:
-#     rows = list(csv.DictReader(f))
-    
-# values = []
-# for row in rows:
-#     raw = row["building_area_sum"].strip()
-#     if raw == "":
-#         continue
-#     values.append(float(raw))
-    
-# print("smallest:", min(values))
-# print("largest:", max(values))
-# print("count:", len(values))
+def inspect_column(filename, column):
+    with open(filename, encoding="utf-8-sig") as f:
+        reader = csv.DictReader(f)
+        rows = list(reader)
 
-def inspect_column(underservedareas, column):
-    with open(underservedareas, encoding="utf-8-sig") as f:
-        rows = list(csv.DictReader(f))
-    
     values = []
     for row in rows:
         raw = row[column].strip()
-        if raw == "":
+        if raw  == "":
             continue
         values.append(float(raw))
-    return {
-        "smallest": min(values),
-        "largest": max(values),
-        "count": len(values),
-    }    
 
-result = inspect_column("underservedareas.csv", "building_area_sum")
-print(result)
+    return{
+        "smallest":min(values),
+        "largest":max(values),
+        "count":len(values)
+    }
+
+area_sum_result = inspect_column("underservedareas.csv", "building_area_sum")
+print("Building Area Sum:", area_sum_result)
+building_count_result = inspect_column("underservedareas.csv", "building_count")
+print("Building Count:", building_count_result)
         
-    
-
-    

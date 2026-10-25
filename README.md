@@ -19,5 +19,6 @@ Built over twelve months with Geodev Lab Africa, cohort one.
 
 - [x] Week6; set the project with uv and added pandas. [check.py](geoclean\check.py) prints pandas version
 - [x] Week7; [analyse.py](analyse.py) reads [wards.csv](wards.csv) , converts each area and classifies each ward.
+- [x] Week 8: [inspect_data.py](inspect_data.py) summarises Building Area Sum and Building count in my data. 
 
 See [project-brief.md](project-brief.md) for the full brief.

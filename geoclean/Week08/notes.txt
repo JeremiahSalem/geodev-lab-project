@@ -1,0 +1,2 @@
+Building area sum: {'smallest': 0.0, 'largest': 152079.2969, 'count': 25041, 'average': 3661.598623771793}     
+Building count: {'smallest': 0.0, 'largest': 344.0, 'count': 25041, 'average': 22.806078032027475}

@@ -1,0 +1,39 @@
+id,@id,amenity,descriptio,landuse,@geometry,name,shop,longitude,latitude
+node/2075846145,node/2075846145,waste_basket,,,,Illegal Waste Dump,,5.6287936,6.3054487
+node/2154560067,node/2154560067,waste_basket,,,,Illegal Waste Dump,,5.595879,6.2915064
+node/2154560069,node/2154560069,waste_basket,,,,Illegal Waste dump,,5.5942613,6.289952
+node/2155749467,node/2155749467,waste_basket,,,,,,5.6153343,6.303843
+node/2160843928,node/2160843928,waste_basket,,,,Illegal Waste dump,,5.594061,6.289963
+node/2160843960,node/2160843960,waste_basket,,,,Illegal Waste dump,,5.5941569,6.2928965
+node/2161059099,node/2161059099,waste_basket,,,,Illegal Waste dump,,5.594146,6.2928284
+node/2161140073,node/2161140073,waste_disposal,Illegal waste dump site,,,,,5.5886989,6.2988528
+node/2161181166,node/2161181166,waste_disposal,,,,,,5.6288532,6.3331176
+node/2344236549,node/2344236549,waste_disposal,illegal dump site,,,,,5.591987,6.3257075
+node/2344258149,node/2344258149,waste_disposal,Unofficial dump site,,,,,5.613345,6.339582
+node/2344280083,node/2344280083,waste_disposal,unofficial,,,,,5.6014793,6.3374111
+node/2344305796,node/2344305796,waste_disposal,,,,,,5.5976111,6.3351573
+node/2344305797,node/2344305797,waste_basket,,,,,,5.5975182,6.3353492
+node/2344328648,node/2344328648,waste_disposal,,,,,,5.6018735,6.3266723
+node/2344328667,node/2344328667,waste_disposal,,,,unofficial waste disposal,,5.6016176,6.3265096
+node/2344424485,node/2344424485,waste_basket,,,,Mechanic Workshop,car_repair,5.603946,6.325333
+node/2344424496,node/2344424496,waste_disposal,unofficial,,,,,5.604614,6.326017
+node/2344503143,node/2344503143,waste_disposal,unofficial,,,,,5.5924949,6.331568
+node/2344512274,node/2344512274,waste_disposal,unofficial,,,,,5.6178876,6.3353532
+node/2344519172,node/2344519172,waste_disposal,illegal waste dump,,,,,5.6026147,6.3441378
+node/2344540232,node/2344540232,waste_disposal,Unofficiall Dump Site,,,,,5.5945057,6.3237348
+node/2344582853,node/2344582853,waste_disposal,,,,Illegal waste Dump,,5.591587,6.3200923
+node/2344590807,node/2344590807,waste_disposal,official,,,,,5.5808164,6.3240759
+node/2344590808,node/2344590808,waste_disposal,official,,,,,5.5814669,6.3248598
+node/2344590809,node/2344590809,waste_disposal,official,,,,,5.5819505,6.3260388
+node/2344590810,node/2344590810,waste_disposal,unofficial,,,,,5.5815902,6.327119
+node/2344596634,node/2344596634,waste_disposal,unoffical,,,,,5.6069767,6.3410766
+node/2344596635,node/2344596635,waste_disposal,unoffical,,,,,5.6058661,6.3417096
+node/2344596638,node/2344596638,waste_disposal,unoffical,,,,,5.6067542,6.3418478
+node/2345400645,node/2345400645,waste_disposal,,,,unofficial,,5.6085373,6.3470316
+node/2345400646,node/2345400646,waste_disposal,,,,unofficial,,5.6090615,6.3481214
+node/2345400647,node/2345400647,waste_disposal,,,,unofficial,,5.5972465,6.3448009
+node/2349318450,node/2349318450,waste_basket,,,,Unofficial Waste DisposaL,,5.5903474,6.3226333
+node/2350807716,node/2350807716,waste_disposal,,,,Illegal Waste dump,,5.6151384,6.3480937
+node/2350807726,node/2350807726,waste_disposal,illegal dump site,,,,,5.6170769,6.3514076
+node/2350807727,node/2350807727,waste_disposal,illegal dump site,,,,,5.6165466,6.3518736
+node/2350849600,node/2350849600,waste_disposal,unofficial,,,,,5.6214265,6.3397603

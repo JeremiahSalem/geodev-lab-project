@@ -15,7 +15,7 @@ Built over twelve months with Geodev Lab Africa, cohort one.
 - [x] Week4; Reprojected, clipped and quality checked
 - [x] Week5; First spatial analysis 
 
-## Month 2
+## Month 2: Python Foundations
 
 - [x] Week6; set the project with uv and added pandas. [check.py](geoclean\check.py) prints pandas version
 - [x] Week7; [analyse.py](analyse.py) reads [wards.csv](wards.csv) , converts each area and classifies each ward.
@@ -25,5 +25,8 @@ Built over twelve months with Geodev Lab Africa, cohort one.
 ### Month 2 Reflection
 
 This week 9 finally gave clarity to what I was doing for the last three weeks, separating my code into small functions that does one clear job, easy to name, understand and fix made the difference. I'll review the past weeks with this understanding and see what comes out.
+
+## Month 2: Geospatial Python Automation
+- [x] Week10; Geopandas Loaded, checked, joined and mapped waste collection points, Benin city.
 
 See [project-brief.md](project-brief.md) for the full brief.
